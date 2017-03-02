@@ -4,4 +4,4 @@
   gather_facts: False
   tasks:
     - name: test
-      command: "echo 'hello'"
+      command: "test.sh"
