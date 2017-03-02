@@ -1,0 +1,7 @@
+- name: Step 001 test
+  hosts: localhost
+  connection: local
+  gather_facts: False
+  tasks:
+    - name: test
+      command: "echo 'hello'"
